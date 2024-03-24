@@ -1,7 +1,26 @@
-body{
-    font-family: "Montserrat";
+/* VARIABLES */
+:root{
+    --color-principal: #fff;
+    --color-secondary: #329153;
+
 }
 
-p{
-    font-weight: 100;
+/* ESTILOS GENERALES */
+
+html{
+    font-size: 10px;
 }
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat", "Helvtecia Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--color-principal);
+}
+
+
+/* BARRA DECORATIVA */
+
+
+/* ESTRUCTURA Y LAYOUT */
