@@ -19,8 +19,76 @@ body{
     background-color: var(--color-principal);
 }
 
-
 /* BARRA DECORATIVA */
 
+.decoration-bar{
+    width: 100%;
+    min-height: 2.5rem;
+    background-color: var(--color-secondary);
+}
 
 /* ESTRUCTURA Y LAYOUT */
+
+.layout{
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "nav nav"
+        "marquee marquee"
+        "slider slider"
+        "high high"
+        "videos videos"
+        "carousel carousel"
+        "main aside"
+    ;
+    grid-template-columns: 70% 30%;
+    width: 55vw;
+    min-width: 100rem;
+    margin: 0 auto;
+}
+
+/* ESTILOS HEADR CABECERA */
+
+.layout__header{
+    grid-area: header;
+}
+
+/* ESTILOS NAVEGACIÓN NAV */
+.layout__nav{
+    grid-area: nav;
+}
+
+/* ESTILOS MARQUESINA MARQUEE */
+.layout__marquee{
+    grid-area: marquee;
+}
+
+/* ESTILOS SLIDER */
+.layout__slider{
+    grid-area: slider;
+}
+
+/* ESTILOS MEJORES MOMENTOS HIGHLIGHTS*/
+.layout__highlights{
+    grid-area: high;
+}
+
+/* ESTILOS VIDEOS */
+.layout__videos{
+    grid-area: videos;
+}
+
+/* ESTIILOS CAROUSEL CAROUSEL */
+.layout__carousel-games{
+    grid-area: carousel;
+}
+
+/* ESTILOS CONTENIDO PRINCIPAL MAIN */
+.layout__main{
+    grid-area: main;
+}
+
+/* ESTILOS BARRA LATERAL ASIDE */
+.layout__aside{
+    grid-area: aside;
+}
