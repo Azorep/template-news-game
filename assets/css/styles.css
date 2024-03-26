@@ -4,7 +4,9 @@
     --color-secondary: #329153;
     --color-bg-navbar: #333946;
     --color-border-list: rgba(255, 255, 255, 0.3);
-    
+    --color-hover-sublist-item: rgba(0, 0, 0, 0.05);
+    --color-shadow: rgba(0, 0, 0, 0.10);
+
 }
 
 /* ESTILOS GENERALES */
@@ -168,6 +170,17 @@ body{
     flex-direction: row;
 }
 
+.navbar__submenu--small{
+    left: auto;
+    width: 20%;
+    overflow: visible;
+}
+
+.navbar__submenu--small > .navbar__sublist{
+    width: 100%;
+}
+
+
 .navbar__sublist{
     display: inline-block;
     padding: 1rem;
@@ -180,6 +193,68 @@ body{
     border-bottom: 1px solid var(--color-border-list);
 }
 
+.sublist__item:hover{
+    background-color: var(--color-hover-sublist-item);
+}
+
+.sublist__item:last-child{
+    border: none;
+}
+
+.sublist__link{
+    color: var(--color-principal);
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.sublist__dropdown{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    padding: 1rem;
+    width: 21rem;
+    background-color: var(--color-principal);
+    box-shadow: 2px 0px 2px -1px var(--color-shadow);
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+}
+
+.sublist__item:hover .sublist__dropdown{
+    opacity: 1;
+    visibility: visible;
+    transition: all 300ms ease-in-out;
+}
+
+.dropdown__item{
+    border-bottom: 1px solid var(--color-hover-sublist-item);
+}
+
+.dropdown__item:hover{
+    background-color: var(--color-hover-sublist-item);
+}
+
+.dropdown__item:last-child{
+    border: none;
+}
+
+.dropdown__link{
+    color: var(--color-bg-navbar);
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* ESTILOS CAROUSELES SUBMNUS */
+.carousel__menu{
+    display: flex;
+    flex-direction: row;
+}
 
 /* ESTILOS MARQUESINA MARQUEE */
 .layout__marquee{
