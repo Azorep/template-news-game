@@ -430,6 +430,53 @@ body{
     grid-area: slider5;
 }
 
+.slider__container{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slider__img{
+    width: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.slider__container:hover .slider__img{
+    transform: scale(1.1); /* Aplicar efecto hover en un elemento */
+}
+
+.slider__info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    color: var(--color-principal);
+}
+
+.slider__category{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px var(--color-bg-navbar);
+}
+
+.slider__line{
+    width: 4rem;
+    height: 0.2rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    background-color: var(--color-secondary);
+}
+
+
+.slider__link-title{
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px var(--color-bg-navbar);
+    color: var(--color-principal);
+    text-transform: uppercase;
+}
+
 /* ESTILOS MEJORES MOMENTOS HIGHLIGHTS*/
 .layout__highlights{
     grid-area: high;
