@@ -399,6 +399,35 @@ body{
 /* ESTILOS SLIDER */
 .layout__slider{
     grid-area: slider;
+    width: 100%;
+    margin-bottom: 3rem;
+
+    display: grid;
+    grid-template-areas: "slider1 slider3 slider3 slider4"
+                         "slider2 slider3 slider3 slider5";
+    row-gap: 0.3rem;
+    column-gap: 0.3rem;
+}
+
+.slider__container--slider1{
+    grid-area: slider1;
+}
+
+.slider__container--slider2{
+    grid-area: slider2;
+}
+
+.slider__container--slider3{
+    grid-area: slider3;
+}
+
+
+.slider__container--slider4{
+    grid-area: slider4;
+}
+
+.slider__container--slider5{
+    grid-area: slider5;
 }
 
 /* ESTILOS MEJORES MOMENTOS HIGHLIGHTS*/
