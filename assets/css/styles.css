@@ -136,13 +136,37 @@ body{
 }
 
 .navbar__btn-search .fa-solid{
-    curso: pointer;
+    cursor: pointer;
     color: var(--color-principal);
     font-size: 2.7rem;
 }
 
+/* ESTILOS SUBMENUS */
+
+.navbar__item:hover .navbar__submenu{
+    opacity: 1;
+    visibility: visible;
+    transition: all 300ms ease-in-out;
+}
+
+.navbar__item:hover .submenu__carousel{
+    display: block;
+}
+
 .navbar__submenu{
-    display: none;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9;
+    overflow: hidden;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-secondary);
+
+    display: flex;
+    flex-direction: row;
 }
 
 /* ESTILOS MARQUESINA MARQUEE */
