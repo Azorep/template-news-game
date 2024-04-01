@@ -555,7 +555,8 @@ body{
 }
 
 .highlights__author,
-.main-video__author{
+.main-video__author,
+.video__author{
     font-weight: 500;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -563,7 +564,8 @@ body{
 }
 
 .highlights__date,
-.main-video__date{
+.main-video__date,
+.video__date{
     font-weight: 400;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -750,6 +752,23 @@ body{
 
 .video__title:hover > .video__link{
     color: var(--color-secondary);
+}
+
+.videos__info{
+    display: flex;
+    gap: 1rem;
+}
+
+.video__image{
+    overflow: hidden;
+}
+
+.video__img{
+    transition: all 300ms ease;
+}
+
+.video__image:hover .video__img{
+    transform: scale(1.1);
 }
 
 /* ESTIILOS CAROUSEL CAROUSEL */
