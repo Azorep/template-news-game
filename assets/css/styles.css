@@ -493,6 +493,56 @@ body{
     margin-bottom: 3rem;
 }
 
+.highlights__posts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.highlights__post{
+    flex-basis: 33%;
+    height: 100%;
+    border-bottom: 1px solid var(--color-bg-marquee);
+}
+
+.highlights__image{
+    position: relative;
+    overflow: hidden;
+}
+
+.highlights__img{
+    transition: all 300ms ease;
+}
+
+.highlights__img:hover{
+    transform: scale(1.1);
+}
+
+.highlights__category{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: var(--color-secondary);
+    transition: all 300ms;
+}
+
+
+.highlights__category:hover{
+    background-color: var(--color-bg-navbar);
+}
+
+.highlights__name-category{
+    display: block;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: var(--color-principal);
+}
+
+
 /*ESTILOS SUB ENCABEZADOS */
 .news__subheader, 
 .games__subheader,
