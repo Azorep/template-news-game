@@ -490,6 +490,37 @@ body{
 /* ESTILOS MEJORES MOMENTOS HIGHLIGHTS*/
 .layout__highlights{
     grid-area: high;
+    margin-bottom: 3rem;
+}
+
+/*ESTILOS SUB ENCABEZADOS */
+.news__subheader, 
+.games__subheader,
+.login__subheader,
+.posts__subheader,
+.recent__subheader,
+.videos__subheader,
+.highlights__subheader,
+.last-reviews__subheader{
+    width: 100%;
+    height: 3.5rem;
+    margin-bottom: 3rem;
+    background-color: var(--color-bg-navbar);
+    padding: 0.5rem;
+}
+
+.subheader__title,
+.news__title,
+.list-header__title,
+.last-reviews__link-title{
+    display: inline;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0.5rem;
+    color: var(--color-principal);
+    background-color: var(--color-secondary);
 }
 
 /* ESTILOS VIDEOS */
