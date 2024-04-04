@@ -522,7 +522,8 @@ body{
     transform: scale(1.1);
 }
 
-.highlights__category{
+.highlights__category,
+.game__container-category{
     position: absolute;
     left: 0;
     bottom: 1rem;
@@ -586,11 +587,13 @@ body{
     margin-bottom: 1rem;
 }
 
-.highlights__category:hover{
+.highlights__category:hover,
+.game__category:hover{
     background-color: var(--color-bg-navbar);
 }
 
-.highlights__name-category{
+.highlights__name-category,
+.game__category{
     display: block;
     font-weight: 400;
     font-size: 1.1rem;
@@ -1043,6 +1046,41 @@ body{
 
 .game__img:hover{
     transform: scale(1.1);
+}
+
+.game__rating{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 0;
+}
+
+.game__details{
+    width: 100%;
+    min-height: 6rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    padding-right: 5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.game__title{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.game__link-title{
+    color: var(--color-principal);
+    transition: all 300ms ease;
+}
+
+.game__title:hover .game__link-title:hover{
+    text-shadow: 0 0 5px black; 
 }
 
 /* ESTILOS BARRA LATERAL ASIDE */
