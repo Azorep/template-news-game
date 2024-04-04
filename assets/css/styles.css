@@ -9,6 +9,7 @@
     --color-bg-marquee: #EEEEEE;
     --color-text-marquee: #7C7C7C;
     --color-titles: #333333;
+    --color-bg-aside: #F5F5F5;
 
 }
 
@@ -1134,4 +1135,41 @@ body{
 /* ESTILOS BARRA LATERAL ASIDE */
 .layout__aside{
     grid-area: aside;
+    background-color: var(--color-bg-aside);
+    padding: 1.5rem;
+    height: fit-content;
 }
+
+.login__container{
+    width: 100%;
+}
+
+.login__form{
+    width: 100%;
+}
+
+.form__container-username,
+.form__container-password,
+.form__container-remember{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+
+
+.form__label{
+    font-weight: 500;
+}
+
+.form__input{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    padding: 0.5rem;
+}
+
+.form__container-remember .form__label,
+.form__container-remember .form__input{
+    width: auto;
+    display: inline;
+}
+
