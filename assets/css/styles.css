@@ -559,7 +559,8 @@ body{
 .highlights__author,
 .main-video__author,
 .video__author,
-.main-post__container-author{
+.main-post__container-author,
+.news__author{
     font-weight: 500;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -569,7 +570,8 @@ body{
 .highlights__date,
 .main-video__date,
 .video__date,
-.main-post__date{
+.main-post__date,
+.news__date{
     font-weight: 400;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -938,7 +940,8 @@ body{
     color: var(--color-secondary);
 }
 
-.main-post__meta{
+.main-post__meta,
+.news__data{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -968,6 +971,7 @@ body{
 .news__post{
     display: flex;
     gap: 1rem;
+    flex-basis: calc(50% - 2rem);
 }
 
 .news__image{
@@ -1002,6 +1006,11 @@ body{
 
 .news__link-title:hover{
     color: var(--color-secondary);
+}
+
+.news__data{
+    justify-content: left;
+    gap: 1rem;
 }
 
 /* ESTILOS BARRA LATERAL ASIDE */
