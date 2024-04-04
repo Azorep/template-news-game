@@ -1114,13 +1114,14 @@ body{
     margin-bottom: 3rem;
 }
 
-.posts__list-header{
+.posts__list-header,
+.recent__list-header{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 }
 
-.list-header__small{
+.list-header--small{
     font-weight: 400;
     color: white;
     font-size: 1.1rem;
@@ -1303,4 +1304,21 @@ body{
 .tweets__content{
     margin-bottom: 3rem;
     hyphens: auto;
+}
+
+/* ESTILOS POST RECIENTES */
+.aside__recent{
+    margin-bottom: 3rem;
+}
+
+.aside__recent .list-header__title{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.aside__recent .list-header--small{
+    font-size: 1.1rem;
+    background: none;
+    padding: 0.5rem;
 }
