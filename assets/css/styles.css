@@ -1173,3 +1173,31 @@ body{
     display: inline;
 }
 
+.form__submit{
+    width: 100%;
+    height: 3.7rem;
+    background-color: var(--color-secondary);
+    color: var(--color-principal);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 0.3rem;
+    padding: 0.7;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.login__register,
+.login__lost-pass{
+    display: block;
+    color: var(--color-secondary);
+    font-weight: 500;
+}
+
+/*ESTILOS REDES SOCIALES*/
+.aside__social{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
