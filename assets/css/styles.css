@@ -1013,6 +1013,38 @@ body{
     gap: 1rem;
 }
 
+/*SECCION JUEGOS*/
+
+.main__games{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.games__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.games__game{
+    position: relative;
+    flex-basis: calc(50% - 1.5rem);
+}
+
+.game__container-image{
+    overflow: hidden;
+}
+
+.game__img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.game__img:hover{
+    transform: scale(1.1);
+}
+
 /* ESTILOS BARRA LATERAL ASIDE */
 .layout__aside{
     grid-area: aside;
