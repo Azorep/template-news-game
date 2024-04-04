@@ -957,6 +957,53 @@ body{
     justify-content: space-between;
 }
 
+.news__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-bottom: 6rem;
+}
+
+.news__post{
+    display: flex;
+    gap: 1rem;
+}
+
+.news__image{
+    overflow: hidden;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.news__img{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+}
+
+.news__image:hover .news__img{
+    transform: scale(1.1);
+}
+
+.news_detail{
+    width: 75%;
+}
+
+.news__title-post{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.news__link-title{
+    color: var(--color-titles);
+    transition: all 300ms ease-in-out;
+}
+
+.news__link-title:hover{
+    color: var(--color-secondary);
+}
+
 /* ESTILOS BARRA LATERAL ASIDE */
 .layout__aside{
     grid-area: aside;
