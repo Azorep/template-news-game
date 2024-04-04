@@ -10,6 +10,11 @@
     --color-text-marquee: #7C7C7C;
     --color-titles: #333333;
     --color-bg-aside: #F5F5F5;
+    --color-twitter: #2FC2EF;
+    --color-facebook: #4C66A4;
+    --color-instagram: #EA4C89;
+    --color-youtube: #CC181E;
+    --color-linkedin: #F4A62A;
 
 }
 
@@ -1200,4 +1205,68 @@ body{
     width: 100%;
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.social__list{
+    width: 100%;
+}
+
+.social__item{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    color: var(--color-principal);
+    transform: all 300ms ease;
+    background-color: var(--color-twitter);
+}
+
+.social__item:hover{
+    padding-left: 3rem;
+}
+
+.social__link{
+    display: flex;
+    flex-direction: row;
+    color: var(--color-principal);
+}
+
+.social__icon{
+    margin-right: 1.5rem;
+    margin-top: 0.2rem;
+
+}
+
+.social__icon > .fa-brands{
+    font-size: 3.6rem;
+}
+
+.social__number{
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.social__word{
+    line-height: 1;
+    font-size: 1.3rem;
+    opacity: 0.75rem;
+}
+
+.social__item--blue{
+    background-color: var(--color-twitter);
+}
+
+.social__item--dark-blue{
+    background-color: var(--color-facebook);
+}
+
+.social__item--red{
+    background-color: var(--color-youtube);
+}
+
+.social__item--pink{
+    background-color: var(--color-instagram);
+}
+
+.social__item--yellow{
+    background-color: var(--color-linkedin);
 }
