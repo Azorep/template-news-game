@@ -1558,3 +1558,73 @@ body{
 .tags__tag:hover{
     background-color: transparent;
 }
+
+.footer__center-container{
+    flex-basis: 33%;
+}
+
+.footer__list-popular{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.list-popular__item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.list-popular__container-img{
+    width: 7rem;
+    height: 7rem;
+    overflow: hidden;
+}
+
+.list-popular__img{
+    width: 100%;
+    transition: all 300ms ease;
+}
+
+.list-popular__img:hover{
+    transform: scale(1.1);    
+}
+
+.list-popular__detail{
+    flex-basis: 75%;
+}
+
+.list-popular__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.list-popular__container-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-popular__author{
+    text-transform: uppercase;
+    color: var(--color-secondary);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.list-popular__meta-info{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.list-popular__views,
+.list-popular__comments{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--color-text-marquee);
+    margin-right: 1rem;
+}
