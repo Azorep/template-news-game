@@ -558,7 +558,8 @@ body{
 
 .highlights__author,
 .main-video__author,
-.video__author{
+.video__author,
+.main-post__container-author{
     font-weight: 500;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -567,7 +568,8 @@ body{
 
 .highlights__date,
 .main-video__date,
-.video__date{
+.video__date,
+.main-post__date{
     font-weight: 400;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -595,20 +597,24 @@ body{
 }
 
 .highlights__footer-post,
-.footer-post__container{
+.footer-post__container,
+.footer-info__container{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
-.footer-post__container{
+.footer-post__container,
+.footer-info__container{
     gap: 1rem;
 }
 
 .footer-post__views,
 .footer-post__comments,
 .main-video__views,
-.main-video__comments{
+.main-video__comments,
+.main-post__views,
+.main-post__comments{
     display: inline-block;
     font-weight: 400;
     font-size: 1.1rem;
@@ -619,6 +625,8 @@ body{
 .footer-post__views > .fa-solid,
 .footer-post__comments > .fa-solid,
 .main-video__views > .fa-solid,
+.main-video__comments > .fa-solid,
+.main-post__views > .fa-solid
 .main-video__comments > .fa-solid{
     margin-right: 0.2rem;
     font-size: 1.2rem;
@@ -628,7 +636,8 @@ body{
     display: inline;
 }
 
-.footer-post__read-more{
+.footer-post__read-more,
+.main-post__read-more{
     color: var(--color-text-marquee);
     border: 1px solid var(--color-text-marquee);
     font-weight: 500;
@@ -638,7 +647,8 @@ body{
     margin-bottom: 2rem;
 }
 
-.footer-post__read-more:hover{
+.footer-post__read-more:hover,
+.main-post__read-more:hover{
     border: 1px solid var(--color-secondary);
     color: var(--color-secondary);
 }
@@ -852,6 +862,99 @@ body{
 /* ESTILOS CONTENIDO PRINCIPAL MAIN */
 .layout__main{
     grid-area: main;
+    margin-right: 3rem;
+}
+
+/* ESTILOS PARA LA NOTICIAS */
+
+.main__news{
+    width: 100%;
+}
+
+.news__main-post{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--color-bg-marquee);
+}
+
+.main-post__image{
+    position: relative;
+    overflow: hidden;
+    flex-basis: 50%;
+    height: 20rem;
+}
+
+.main-post__img{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.main-post__img:hover{
+    transform: scale(1.1);
+}
+
+.main-post__container-category{
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--color-secondary);
+    transition: all 300ms ease-in-out;
+}
+
+.main-post__container-category:hover{
+    background-color: var(--color-bg-navbar);
+}
+
+.main-post__category{
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--color-principal);
+}
+
+.main-post__info{
+    flex-basis: 50%;
+}
+
+.main-post__tile{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.main-post__link-title{
+    color: var(--color-titles);
+    transition: all 300ms ease-in-out;
+}
+
+.main-post__title:hover .main-post__link-title{
+    color: var(--color-secondary);
+}
+
+.main-post__meta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.main-post__description{
+    font-size: 1.3rem;
+    color: var(--color-titles);
+    margin-bottom: 1rem;
+}
+
+.main-post__footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* ESTILOS BARRA LATERAL ASIDE */
