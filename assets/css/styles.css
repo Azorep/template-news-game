@@ -578,7 +578,8 @@ body{
 .video__author,
 .main-post__container-author,
 .news__author,
-.post__author{
+.post__author,
+.recent__author{
     font-weight: 500;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -625,14 +626,16 @@ body{
 .highlights__footer-post,
 .footer-post__container,
 .footer-info__container,
-.post__footer-post{
+.post__footer-post,
+.recent__meta-info{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
 .footer-post__container,
-.footer-info__container{
+.footer-info__container,
+.recent__meta-info{
     gap: 1rem;
 }
 
@@ -641,7 +644,9 @@ body{
 .main-video__views,
 .main-video__comments,
 .main-post__views,
-.main-post__comments{
+.main-post__comments,
+.recent__views,
+.recent__comments{
     display: inline-block;
     font-weight: 400;
     font-size: 1.1rem;
@@ -653,12 +658,15 @@ body{
 .footer-post__comments > .fa-solid,
 .main-video__views > .fa-solid,
 .main-video__comments > .fa-solid,
-.main-post__views > .fa-solid
-.main-video__comments > .fa-solid{
+.main-post__views > .fa-solid,
+.main-video__comments > .fa-ssolid,
+.recent__views > .fa-solid,
+.recent__comments > .fa-solid{
     margin-right: 0.2rem;
     font-size: 1.2rem;
 }
 
+.recent__comments > a,
 .footer-post__comments > a{
     display: inline;
 }
@@ -1321,4 +1329,55 @@ body{
     font-size: 1.1rem;
     background: none;
     padding: 0.5rem;
+}
+
+.recent__list-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.recent__item{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.recent__container-img{
+    width: 7rem;
+    height: 7rem;
+    overflow: hidden;
+}
+
+.recent__img{
+    width: 100%;
+    transition: all 300ms ease;
+}
+
+.recent__img:hover{
+    transform: scale(1.1);
+}
+
+.recent__detail{
+    width: 100%;
+}
+
+.recent__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.recent__link-title{
+    color: var(--color-titles);
+    transition: all 300ms ease;
+}
+
+.recent__link-title:hover{
+    color: var(--color-secondary);
+}
+
+.recent__container-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
