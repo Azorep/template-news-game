@@ -1511,3 +1511,50 @@ body{
     flex-direction: row;
     gap: 3rem;
 }
+
+.footer__left-container{
+    flex-basis: 33%;
+}
+
+.footer__about{
+    margin-bottom: 3rem;
+}
+
+.about__title, 
+.tags__title,
+.footer__title
+{
+    margin-bottom: 2rem;
+    color: var(--color-secondary);
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+.about__description{
+    font-size: 1.3rem;
+    color: var(--color-principal);
+}
+
+.tags__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.tags__tag{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    color: var(--color-principal);
+    background-color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 0.3rem;
+    transition: all 300ms ease;
+}
+
+.tags__tag:hover{
+    background-color: transparent;
+}
