@@ -1628,3 +1628,56 @@ body{
     color: var(--color-text-marquee);
     margin-right: 1rem;
 }
+
+.footer__right-container{
+    flex-basis: 33%;
+}
+
+.footer__fslider{
+    position: relative;
+    overflow: hidden;
+    width: 33rem;
+    height: 22rem;
+}
+
+.fslider__img{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease;
+}
+
+.fslider__img:hover{
+    transform: scale(1.1);
+}
+
+.fslider__info{
+    width: 100%;
+    position: absolute;
+    top: 38%;
+    text-align: center;
+    color: var(--color-principal);
+    padding: 0 1rem;
+}
+
+.fslider__category{
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+}
+
+.fslider__separator{
+    display: block;
+    width: 6rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    background-color: var(--color-secondary);
+}
+
+.fslider__title{
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px var(--color-titles);
+}
