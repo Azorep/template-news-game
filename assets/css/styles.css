@@ -1083,6 +1083,28 @@ body{
     text-shadow: 0 0 5px black; 
 }
 
+/* ESTILOS ULTIMOS ARTICULOS */
+
+.main__posts{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.posts__list-header{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.list-header__small{
+    font-weight: 400;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    white-space: no-wrap;
+}
+
 /* ESTILOS BARRA LATERAL ASIDE */
 .layout__aside{
     grid-area: aside;
