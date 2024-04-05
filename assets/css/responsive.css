@@ -158,4 +158,20 @@
     .videos__video{
         width: calc(50% - 1rem);
     }
+
+    /*CAROUSEL*/
+
+    .carousel-games__item{
+        width: 100%;
+    }
+
+    .carousel-games__item--hidden{
+        display: none;
+    }
+
+    /* BARRA LATERA*/
+
+    .layout__aside{
+        margin-bottom: 3rem;
+    }
 }
