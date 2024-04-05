@@ -9,6 +9,33 @@
 
 @media (max-width: 1024px) {
     
+    /* LAYOUT */
+
+    .layout{
+        width: 70%;
+        min-width: 74rem;
+        margin: 0 auto;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "marquee marquee"
+        "slider slider"
+        "high high"
+        "videos videos"
+        "carousel carousel"
+        "main main"
+        "aside aside"
+    ;
+    }
+
+    /* CABECERA */
+
+    .layout__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .navbar__list{
         display: none;
     }
