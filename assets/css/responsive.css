@@ -199,3 +199,42 @@
         margin: 0;
     }
 }
+
+@media (max-width: 775px){
+    /* LAYOUT */
+
+    .layout{
+        width: 57%;
+        min-width: 57rem;
+        margin: 0 auto;
+
+    }
+  /* SLIDER */
+
+    .slider__container--slider2{
+        width: 100%;
+        height: 11.8rem;
+    }
+
+    .slider__container--slider3{
+        width: 100%;
+        height: 24.8rem;
+    }
+
+    .slider__container--slider5{
+        width: 100%;
+        height: 19.25rem;
+    }
+
+    /* PIE DE PAGINA*/
+    .footer__container{
+        width: 52%;
+        min-width: 52rem;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 592px){
+    
+}
