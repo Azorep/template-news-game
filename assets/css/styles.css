@@ -124,8 +124,7 @@ body{
 }
 
 .search__input{
-    display: none;
-    width: 20rem;
+    width: 0rem;
     height: 5rem;
     font-size: 1.6rem;
     background-color: var(--color-secondary);
