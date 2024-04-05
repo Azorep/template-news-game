@@ -11,6 +11,7 @@
     <!--Cargar estilos-->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- Cargar JavaScript-->
     <script src="./assets/js/marquee.js" defer></script>
     <script src="./assets/js/main.js" defer></script>
@@ -36,6 +37,13 @@
     <!--Navegación-->
     <section class="layout__nav">
         <nav class="nav__navbar">
+            <!--Botón menu responsive-->
+            <div class="navbar__mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <!--Menu responsive-->
+
+            <!--Navegación escritorio -->
             <ul class="navbar__list">
                 <li class="navbar__item">
                     <a href="#" class="navbar__link">
@@ -501,6 +509,7 @@
                 </li>
             </ul>
 
+            <!--Buscador -->
             <form class="navbar__search">
                 <input type="text" class="search__input" name="search" placeholder="Buscar" />
 
@@ -511,8 +520,6 @@
                 </div>
 
             </form>
-
-
         </nav>
     </section>
 
