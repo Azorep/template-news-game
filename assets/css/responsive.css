@@ -130,4 +130,32 @@
         width: 100%;
         height: 23.6rem;
     }
+
+    /*MEJORES MOMENTOS*/
+
+    .highlights__posts{
+        flex-wrap: wrap;
+    }
+
+    .highlights__post{
+        width: calc(100% - 1.5rem);
+    }
+
+    /*VIDEOS*/
+    .videos__container{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .videos__list{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .videos__video{
+        width: calc(50% - 1rem);
+    }
 }
