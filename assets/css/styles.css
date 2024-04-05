@@ -140,7 +140,8 @@ body{
     opacity: 1;
 }
 
-.navbar__btn-search{
+.navbar__btn-search,
+.navbar__mobile-btn{
     background-color: var(--color-secondary);
     padding: 0.8rem 1.3rem;
     height: 5rem;
@@ -148,7 +149,8 @@ body{
     align-items: center;
 }
 
-.navbar__btn-search .fa-solid{
+.navbar__btn-search .fa-solid
+.navbar__mobile-btn .fa-solid{
     cursor: pointer;
     color: var(--color-principal);
     font-size: 2.7rem;
