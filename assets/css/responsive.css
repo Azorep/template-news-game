@@ -28,6 +28,9 @@
     ;
     }
 
+    .layout__main{
+        margin-right: 0rem;
+    }
     /* CABECERA */
 
     .layout__header{
@@ -134,6 +137,7 @@
     /*MEJORES MOMENTOS*/
 
     .highlights__posts{
+        display: block;
         flex-wrap: wrap;
     }
 
@@ -236,5 +240,89 @@
 }
 
 @media (max-width: 592px){
+
+    /* LAYOUT */
+    .layout{
+        width: 35%;
+        min-width: 35rem;
+        margin: 0 auto;
+
+    }
+
+    /* SLIDER */
+    .layout__slider{
+        grid-template-areas: 
+        "slider1 slider1 slider1 slider1"
+        "slider2 slider2 slider2 slider2"
+        "slider3 slider3 slider3 slider3"
+        "slider4 slider4 slider4 slider4"
+        ;
+        column-gap: 0;
+        grid-template-columns: 100%;
+    }
+
+    .slider__container--slider2{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider3{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider5{
+        width: 100%;
+        height: auto;
+    }
+
+    /*MEJORES MOMENTOS*/
+
+    .highlights__posts{
+        display: block;
+        flex-direction: row;
+    }
+
+    .highlights__post{
+        width: 100%;
+    }
+
+
+    /*VIDEOS*/
+
+    .main-video__yt-video{
+        height: 20rem;
+    }
+
+    .videos__list{
+        flex-direction: column;
+    }
     
+    .videos__video{
+        width: 100%;
+    }
+
+    /*CAROUSEL*/
+
+    .carousel-games__item--hidden-small{
+        display: none;
+    }
+
+    /*NOTICIAS*/
+    .news__main-post{
+        flex-direction: column;
+    }
+
+    .news__list{
+        flex-direction: column;
+    }
+
+    /*JUEGOS*/
+    .games__container{
+        flex-direction: column;
+    }
+
+    .games__game{
+        width: 100%;
+    }
 }
