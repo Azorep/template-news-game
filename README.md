@@ -29,14 +29,13 @@
 
 <img src="https://i.imgur.com/R27UiLN.gif" width="600">
 
-![Demostración 2](https://i.imgur.com/CFdMHTK.gif)
+<img src="https://i.imgur.com/CFdMHTK.gif" width="600">
 
-![Demostración 3](https://i.imgur.com/avuHx1U.gif)
+<img src="https://i.imgur.com/avuHx1U.gif" width="600">
 
-![Demostración 4](https://i.imgur.com/PMwARoJ.gif)
+<img src="https://i.imgur.com/PMwARoJ.gif" width="400">
 
-![Demostración 5](https://i.imgur.com/tseF5zg.gif)
-
+<img src="https://i.imgur.com/tseF5zg.gif" width="400">
 
 La plataforma está diseñada con un diseño completamente adaptable, siguiendo una filosofía de 'mobile first'
 
