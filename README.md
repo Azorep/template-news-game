@@ -27,12 +27,12 @@
 
 ## Características del proyecto y demostración
 
-![Demostración 1](https://i.imgur.com/R27UiLN.gif) 
+<img src="https://i.imgur.com/R27UiLN.gif" width="600">
 
 ![Demostración 2](https://i.imgur.com/CFdMHTK.gif)
 
 ![Demostración 3](https://i.imgur.com/avuHx1U.gif)
-## 
+
 ![Demostración 4](https://i.imgur.com/PMwARoJ.gif)
 
 ![Demostración 5](https://i.imgur.com/tseF5zg.gif)
