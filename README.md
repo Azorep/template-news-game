@@ -33,6 +33,7 @@
 
 <img src="https://i.imgur.com/avuHx1U.gif" width="600">
 
+<img src="https://i.imgur.com/PMwARoJ.gif" width="600">
 La plataforma está diseñada con un diseño completamente adaptable, siguiendo una filosofía de 'mobile first'
 
 ## Instalación
