@@ -325,4 +325,44 @@
     .games__game{
         width: 100%;
     }
+
+    /*POSTS*/
+
+    .posts__container{
+        flex-direction: column;
+    }
+
+    .posts__post{
+        flex-basis: 100%;
+    }
+
+    .post__img{
+        width: 100%;
+    }
+
+     /* PIE DE PAGINA*/
+     .footer__container{
+        width: 30%;
+        min-width: 30rem;
+    }
+
+    .footer__text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px){
+     /* LAYOUT */
+     .layout{
+        width: 100%;
+        min-width: auto;
+        margin: 0;
+    }
+
+      /* PIE DE PAGINA*/
+      .footer__container{
+        width: 100%;
+        min-width: auto;
+        margin: 0;
+    }
 }
